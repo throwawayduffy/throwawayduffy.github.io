@@ -49,5 +49,19 @@ img {
 }
 
 .padbot{
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
+
+@media screen and (max-width: 750px) {
+  .clouds {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 750px) {
+.space{
+    word-spacing: 9em;
+}
+}
+
+
